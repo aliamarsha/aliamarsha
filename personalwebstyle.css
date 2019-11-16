@@ -1,0 +1,24 @@
+#alia-marsha {
+    text-decoration: underline pink;
+    font: 24px;
+}
+.nav-name {
+    margin: 20px;
+    font-family: 'Baskervville', serif;
+    display: inline-block;
+
+}
+nav {
+    padding-block-start: 1px;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    margin-right: 80px;
+}
+#menu li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline pink;
+    font-family: 'Baskervville', serif;
+    padding: 10px;
+} 
