@@ -1,12 +1,13 @@
-#alia-marsha {
-    text-decoration: underline pink;
-    font: 24px;
-}
 .nav-name {
     margin: 20px;
     font-family: 'Baskervville', serif;
     display: inline-block;
+    font-size: 18px;
+}
 
+#myname {
+    font-size: 23px;
+    text-decoration: underline pink;
 }
 nav {
     padding-block-start: 1px;
@@ -14,6 +15,7 @@ nav {
     display: inline-block;
     float: right;
     margin-right: 80px;
+    font-size: 18px;
 }
 #menu li{
     display: inline-block;
@@ -21,4 +23,32 @@ nav {
     text-decoration: underline pink;
     font-family: 'Baskervville', serif;
     padding: 10px;
-} 
+}
+.question {
+    margin-top: 8%;
+    text-align: center;
+    font-family:'Baskervville', serif;
+}
+.choice {
+    border: 2px dashed lavender;
+    display: inline-block;
+    padding: 7px;
+    font-family:'Baskervville', serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: center;
+    text-decoration:none;
+    background-color: lightpink;
+}
+.choice:hover{
+    background: lavender;
+}
+.choiceouterbox {
+    margin: 0 auto;
+    padding:0;
+    width: 600px;
+    height: 400px;
+}
+body {
+    background-image: url("https://s4.aconvert.com/convert/p3r68-cdx67/bcr0j-n8iv7.jpg");
+}
