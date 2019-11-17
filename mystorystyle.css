@@ -1,0 +1,50 @@
+body {
+    background-image: url(./morepics/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.question {
+    margin-top: 8%;
+    text-align: center;
+    font-family:'Baskervville', serif;
+}
+.choice {
+    border: 2px solid lavender;
+    display: inline-block;
+    padding: 7px;
+    font-family:'Baskervville', serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-decoration:none;
+    background-color:rbga(255,255,255,0);
+}
+
+.choice:hover{
+    background:rgba(255,192,203 ,0.3 );
+}
+
+.choiceouterbox {
+    margin: 0 auto;
+    padding:0;
+    width: 600px;
+    height: 400px;
+}
+
+.homebutton {
+    margin-top: 40%;
+    margin-left: 45%;
+    padding: 7px;
+    border: 1px solid rgb(95, 19, 95);
+    font-family:'Baskervville', serif;
+    color:rgba(95, 19, 95);
+    background-color: rbga(255,255,255,0);
+    font-size: 14px;
+    display: inline-block;
+}
+
+.homebutton:hover{
+    background:rgba(255,192,203 ,0.3 );
+}
+
