@@ -3,6 +3,11 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
+    overflow: scroll;
+}
+
+html {
+    height: 100%;
 }
 
 .box {
@@ -12,10 +17,11 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     text-align: justify;
+    overflow: scroll;
 }
-.homebutton {
+.homebutton1 {
     margin-top: 0;
-    margin-left: 45%;
+    margin-left: 40%;
     padding: 7px;
     border: 1px solid rgb(95, 19, 95);
     font-family:'Baskervville', serif;
@@ -25,7 +31,7 @@ body {
     display: inline-block;
 }
 
-.homebutton:hover{
+.homebutton1:hover{
     background:rgba(255,192,203 ,0.3 );
 }
 

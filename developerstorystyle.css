@@ -1,0 +1,33 @@
+.box-dev {
+    font-family:'Baskervville', serif;
+    border: 1px transparent;
+    width: 100%;
+    margin-right: 0;
+    margin-top: 20%;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    font-family:'Baskervville', serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    height: 15;
+    width: 100%;
+    bottom: 0;
+}
+
+.homebutton3  {
+    margin-top: 40%;
+    padding: 7px;
+    border: 1px solid rgb(95, 19, 95);
+    font-family:'Baskervville', serif;
+    color:rgba(95, 19, 95);
+    background-color: rbga(255,255,255,0);
+    font-size: 14px;
+}
+
+.homebutton3:hover{
+    background:rgba(255,192,203 ,0.3 );
+}

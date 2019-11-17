@@ -3,12 +3,14 @@
     font-family: 'Baskervville', serif;
     display: inline-block;
     font-size: 18px;
+    position: fixed;
 }
 
 #myname {
     font-size: 23px;
     text-decoration: underline pink;
 }
+
 nav {
     padding-block-start: 1px;
     text-align: right;
@@ -17,12 +19,14 @@ nav {
     margin-right: 80px;
     font-size: 18px;
 }
+
 #menu li{
     display: inline-block;
     list-style: none;
     text-decoration: underline pink;
     font-family: 'Baskervville', serif;
     padding: 10px;
+    
 }
 .question {
     margin-top: 8%;
@@ -49,6 +53,19 @@ nav {
     width: 600px;
     height: 400px;
 }
-body {
-    background-image: url("https://s4.aconvert.com/convert/p3r68-cdx67/bcr0j-n8iv7.jpg");
+.background-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    background-color: white;
+    font-family:'Baskervville', serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    height: 15;
+    width: 100%;
+    bottom: 0;
 }

@@ -1,0 +1,65 @@
+body {
+    font-family:'Baskervville', serif;
+}
+
+form {
+   width: 50%;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+.container {
+    margin: 30px;
+    border-radius: 6px;
+    border: 3px solid lavender;
+    padding: 10px;
+    background-color: rgb(255, 240, 245);
+}
+
+.message {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    box-sizing: border-box;
+
+}
+
+p {
+    text-align: center;
+}
+
+.submit {
+    border: 1px solid;
+    width: 50%;
+    font-size: 13px;
+}
+
+.submit:hover {
+    background:rgba(255,192,203 ,0.3 );
+}
+
+footer {
+    background-color: white;
+    font-family:'Baskervville', serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    height: 15;
+    width: 100%;
+    bottom: 0;
+}
+
+.homebutton2  {
+    margin-top: 40%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border: 1px solid rgb(95, 19, 95);
+    font-family:'Baskervville', serif;
+    color:rgba(95, 19, 95);
+    background-color: rbga(255,255,255,0);
+    font-size: 14px;
+}
+
+.homebutton2:hover{
+    background:rgba(255,192,203 ,0.3 );
+}

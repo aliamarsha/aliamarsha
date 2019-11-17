@@ -2,6 +2,7 @@ body {
     background-image: url(./morepics/bg2.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
+    background-position: left;
 }
 .question {
     margin-top: 8%;
@@ -47,6 +48,7 @@ body {
 .homebutton:hover{
     background:rgba(255,192,203 ,0.3 );
 }
+
 footer {
     background-color: white;
     font-family:'Baskervville', serif;
