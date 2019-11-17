@@ -47,4 +47,13 @@ body {
 .homebutton:hover{
     background:rgba(255,192,203 ,0.3 );
 }
-
+footer {
+    background-color: white;
+    font-family:'Baskervville', serif;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    height: 15;
+    width: 100%;
+    bottom: 0;
+}
